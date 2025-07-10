@@ -93,7 +93,7 @@ def send_log_discord(filepath):
 
 def periodic_sender(log_path):
     while True:
-        time.sleep(60)  # 5 minutes
+        time.sleep(60)
         send_log_discord(log_path)
 
 def get_system_info():
