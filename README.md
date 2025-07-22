@@ -17,7 +17,7 @@ Now install the required dependencies for the requirements.txt file:
 
 ```pip install -r requirements.txt```
 
-With your desired code editor, open up **Script1.py** **FINISHIS THIIS**
+With your desired code editor, open up **Script1.py** or **Script2.py** and scroll down until you find the ```send_log_discord()``` function. In that function, replace find the comment that says the replace the inside of the quotes with your own Base64 encoding Webhook url.
 
 ## Compiling
 
