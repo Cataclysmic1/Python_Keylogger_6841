@@ -17,6 +17,8 @@ Now install the required dependencies for the requirements.txt file:
 
 ```pip install -r requirements.txt```
 
+With your desired code editor, open up **Script1.py** **FINISHIS THIIS**
+
 ## Compiling
 
 To compile either one of these scripts, we will be using a tool called **Nuitka**, which was automatically installed when the **requirements.txt** installed all the dependencies needed for the project. This tool is similar to pyintaller but it also is able to convert the python code to native C/C++, naturally obfuscating the code, making it harder to flag and reverse engineer.
