@@ -41,10 +41,10 @@ To compile either one of these scripts, we will be using a tool called **Nuitka*
 
 ```nuitka --standalone --windows-console-mode=disable --msvc=latest Script1.py```
 
-Placeholder
+These compile options make it so that **Script1** is compiled into a folder with the .exe file with all its dependencies in the same directory. It also disables the windows console making the script more sneakier.
 
 **Script2.py**:
 
 ```nuitka --standalone --onefile --msvc=latest Script2.py```
 
-Placeholder
+These compile options make it so that **Script2** is compiled as just an .exe file and nothing else. This allows the script to looks less suspicious to the victim, however, the windows console will remain on screen and Windows may potentially detect the script easier in the future.
