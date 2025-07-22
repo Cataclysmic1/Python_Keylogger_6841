@@ -33,3 +33,18 @@ Both of these scripts generally do the same thing, however there are a few key d
 
 **Script2.py** has similar features to Script1.py except the ones mentioned above. What sets Script2 apart from Script1, is that it is able to be compiled into a standalone .exe file with no other files needed for it to run. However, this comes at the cost of Windows defender being able to flag the keylogger easier, thus Script2 having less features to avoid being detected while being a standalone .exe.
 
+## Compiling
+
+To compile either one of these scripts, we will be using a tool called **Nuitka**, which was automatically installed when the **requirements.txt** installed all the dependencies needed for the project. This tool is similar to pyintaller but it also is able to convert the python code to native C/C++, naturally obfuscating the code, making it harder to flag and reverse engineer.
+
+**Script1.py**:
+
+```nuitka --standalone --windows-console-mode=disable --msvc=latest Script1.py```
+
+Placeholder
+
+**Script2.py**:
+
+```nuitka --standalone --onefile --msvc=latest Script2.py```
+
+Placeholder
