@@ -53,4 +53,4 @@ Both of these scripts generally do the same thing, however there are a few key d
 
 Simply send the victim the compiled version of either Script1 or Script2 to the victim and once they run the .exe file, the keylogger will begin and periodically send keylog information to your webhook.
 
-Pressing the ESC key will terminate the keylogger.
+Pressing the **ESC** key will terminate the keylogger.
