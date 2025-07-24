@@ -9,4 +9,4 @@
 - Command prompt appears when running the script by deafult, have to set the compile options to disable the cmd prompt in Nuitka, however this causes the standalone .exe file to be flagged but if we compile the .exe with dependencies sintead of a standalone one file, this will not not flag the AV.
 
 ## Security Insights
-- Testing should be done in a VM
+- Testing should be done in a VM without internet as Windows defender has somw cloud based signature uploading.
