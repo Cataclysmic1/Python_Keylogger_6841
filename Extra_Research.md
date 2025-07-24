@@ -10,3 +10,13 @@
 
 ## Security Insights
 - Testing should be done in a VM without internet as Windows defender has somw cloud based signature uploading.
+- Windows defender is very lenient in allowing unknown applications to run.
+- A secondary AV is actually really necessary if installing or using unkown applications.
+
+## Future potential additions
+- Encrypting log files.
+- Add peristance with future research.
+
+## Refrences
+- https://nuitka.net/user-documentation/
+- https://pynput.readthedocs.io/en/latest/
